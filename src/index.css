@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: goodTime;
+    src: url(fonts/good\ times\ rg.otf);
+}
+
+@layer base {
+    body {
+        @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+    }
+}
